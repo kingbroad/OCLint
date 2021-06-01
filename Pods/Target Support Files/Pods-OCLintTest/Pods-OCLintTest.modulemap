@@ -1,0 +1,6 @@
+framework module Pods_OCLintTest {
+  umbrella header "Pods-OCLintTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

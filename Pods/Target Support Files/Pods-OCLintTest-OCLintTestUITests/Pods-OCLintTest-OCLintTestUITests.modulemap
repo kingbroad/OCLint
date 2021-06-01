@@ -1,0 +1,6 @@
+framework module Pods_OCLintTest_OCLintTestUITests {
+  umbrella header "Pods-OCLintTest-OCLintTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C9ABDE3AB2FBC33A99FB86 /* Pods_OCLintTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B491A00545D57406D21EA53 /* Pods_OCLintTestTests.framework */; };
+		3C57B2D52643DF5100884237 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C57B2D42643DF5100884237 /* AppDelegate.m */; };
+		3C57B2D82643DF5100884237 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C57B2D72643DF5100884237 /* SceneDelegate.m */; };
+		3C57B2DB2643DF5100884237 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C57B2DA2643DF5100884237 /* ViewController.m */; };
+		3C57B2DE2643DF5100884237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C57B2DC2643DF5100884237 /* Main.storyboard */; };
+		3C57B2E02643DF5400884237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C57B2DF2643DF5400884237 /* Assets.xcassets */; };
+		3C57B2E32643DF5400884237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C57B2E12643DF5400884237 /* LaunchScreen.storyboard */; };
+		3C57B2E62643DF5400884237 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C57B2E52643DF5400884237 /* main.m */; };
+		3C57B2F02643DF5400884237 /* OCLintTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C57B2EF2643DF5400884237 /* OCLintTestTests.m */; };
+		3C57B2FB2643DF5400884237 /* OCLintTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C57B2FA2643DF5400884237 /* OCLintTestUITests.m */; };
+		3CE3F75D2649022A002FCF0E /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE3F75C2649022A002FCF0E /* TestViewController.m */; };
+		3CE3F76626490238002FCF0E /* NoTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE3F76526490238002FCF0E /* NoTestViewController.m */; };
+		CD61C59B595F1C1087CF28A2 /* Pods_OCLintTest_OCLintTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8F94223B1B0D7AE794C7E3 /* Pods_OCLintTest_OCLintTestUITests.framework */; };
+		DE4EA5F43001C76F7608660F /* Pods_OCLintTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DDD4B151686A03FF6B7DF2 /* Pods_OCLintTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C57B2EC2643DF5400884237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C57B2C82643DF5100884237 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C57B2CF2643DF5100884237;
+			remoteInfo = OCLintTest;
+		};
+		3C57B2F72643DF5400884237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C57B2C82643DF5100884237 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C57B2CF2643DF5100884237;
+			remoteInfo = OCLintTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C57B2D02643DF5100884237 /* OCLintTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCLintTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C57B2D32643DF5100884237 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C57B2D42643DF5100884237 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C57B2D62643DF5100884237 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3C57B2D72643DF5100884237 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3C57B2D92643DF5100884237 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C57B2DA2643DF5100884237 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C57B2DD2643DF5100884237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C57B2DF2643DF5400884237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C57B2E22643DF5400884237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C57B2E42643DF5400884237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C57B2E52643DF5400884237 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C57B2EB2643DF5400884237 /* OCLintTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCLintTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C57B2EF2643DF5400884237 /* OCLintTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCLintTestTests.m; sourceTree = "<group>"; };
+		3C57B2F12643DF5400884237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C57B2F62643DF5400884237 /* OCLintTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCLintTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C57B2FA2643DF5400884237 /* OCLintTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCLintTestUITests.m; sourceTree = "<group>"; };
+		3C57B2FC2643DF5400884237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE3F75B2649022A002FCF0E /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		3CE3F75C2649022A002FCF0E /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		3CE3F76426490238002FCF0E /* NoTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoTestViewController.h; sourceTree = "<group>"; };
+		3CE3F76526490238002FCF0E /* NoTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoTestViewController.m; sourceTree = "<group>"; };
+		484F1A1DAE7CFB26CFA046CB /* Pods-OCLintTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCLintTest.release.xcconfig"; path = "Target Support Files/Pods-OCLintTest/Pods-OCLintTest.release.xcconfig"; sourceTree = "<group>"; };
+		4B491A00545D57406D21EA53 /* Pods_OCLintTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCLintTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8F94223B1B0D7AE794C7E3 /* Pods_OCLintTest_OCLintTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCLintTest_OCLintTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		568B94E47F316D5BD5F75C57 /* Pods-OCLintTest-OCLintTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCLintTest-OCLintTestUITests.release.xcconfig"; path = "Target Support Files/Pods-OCLintTest-OCLintTestUITests/Pods-OCLintTest-OCLintTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		98DDD4B151686A03FF6B7DF2 /* Pods_OCLintTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCLintTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE706BD196F2599AB8ACFF14 /* Pods-OCLintTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCLintTest.debug.xcconfig"; path = "Target Support Files/Pods-OCLintTest/Pods-OCLintTest.debug.xcconfig"; sourceTree = "<group>"; };
+		CF74E865754227AD78D9EBE5 /* Pods-OCLintTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCLintTestTests.debug.xcconfig"; path = "Target Support Files/Pods-OCLintTestTests/Pods-OCLintTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D111C52A49EE447CD15C8AAD /* Pods-OCLintTest-OCLintTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCLintTest-OCLintTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-OCLintTest-OCLintTestUITests/Pods-OCLintTest-OCLintTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F30F5607E0F9C97A35612AA7 /* Pods-OCLintTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCLintTestTests.release.xcconfig"; path = "Target Support Files/Pods-OCLintTestTests/Pods-OCLintTestTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C57B2CD2643DF5100884237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4EA5F43001C76F7608660F /* Pods_OCLintTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C57B2E82643DF5400884237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C9ABDE3AB2FBC33A99FB86 /* Pods_OCLintTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C57B2F32643DF5400884237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD61C59B595F1C1087CF28A2 /* Pods_OCLintTest_OCLintTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E66D4AE3E5CF342255B2E18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98DDD4B151686A03FF6B7DF2 /* Pods_OCLintTest.framework */,
+				4E8F94223B1B0D7AE794C7E3 /* Pods_OCLintTest_OCLintTestUITests.framework */,
+				4B491A00545D57406D21EA53 /* Pods_OCLintTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C57B2C72643DF5100884237 = {
+			isa = PBXGroup;
+			children = (
+				3C57B2D22643DF5100884237 /* OCLintTest */,
+				3C57B2EE2643DF5400884237 /* OCLintTestTests */,
+				3C57B2F92643DF5400884237 /* OCLintTestUITests */,
+				3C57B2D12643DF5100884237 /* Products */,
+				55C99E5B1CC087433AE118CC /* Pods */,
+				2E66D4AE3E5CF342255B2E18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C57B2D12643DF5100884237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C57B2D02643DF5100884237 /* OCLintTest.app */,
+				3C57B2EB2643DF5400884237 /* OCLintTestTests.xctest */,
+				3C57B2F62643DF5400884237 /* OCLintTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C57B2D22643DF5100884237 /* OCLintTest */ = {
+			isa = PBXGroup;
+			children = (
+				3C57B2D32643DF5100884237 /* AppDelegate.h */,
+				3C57B2D42643DF5100884237 /* AppDelegate.m */,
+				3C57B2D62643DF5100884237 /* SceneDelegate.h */,
+				3C57B2D72643DF5100884237 /* SceneDelegate.m */,
+				3C57B2D92643DF5100884237 /* ViewController.h */,
+				3C57B2DA2643DF5100884237 /* ViewController.m */,
+				3CE3F7572649020F002FCF0E /* notest */,
+				3CE3F75326490207002FCF0E /* test */,
+				3C57B2DC2643DF5100884237 /* Main.storyboard */,
+				3C57B2DF2643DF5400884237 /* Assets.xcassets */,
+				3C57B2E12643DF5400884237 /* LaunchScreen.storyboard */,
+				3C57B2E42643DF5400884237 /* Info.plist */,
+				3C57B2E52643DF5400884237 /* main.m */,
+			);
+			path = OCLintTest;
+			sourceTree = "<group>";
+		};
+		3C57B2EE2643DF5400884237 /* OCLintTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C57B2EF2643DF5400884237 /* OCLintTestTests.m */,
+				3C57B2F12643DF5400884237 /* Info.plist */,
+			);
+			path = OCLintTestTests;
+			sourceTree = "<group>";
+		};
+		3C57B2F92643DF5400884237 /* OCLintTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C57B2FA2643DF5400884237 /* OCLintTestUITests.m */,
+				3C57B2FC2643DF5400884237 /* Info.plist */,
+			);
+			path = OCLintTestUITests;
+			sourceTree = "<group>";
+		};
+		3CE3F75326490207002FCF0E /* test */ = {
+			isa = PBXGroup;
+			children = (
+				3CE3F75B2649022A002FCF0E /* TestViewController.h */,
+				3CE3F75C2649022A002FCF0E /* TestViewController.m */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		3CE3F7572649020F002FCF0E /* notest */ = {
+			isa = PBXGroup;
+			children = (
+				3CE3F76426490238002FCF0E /* NoTestViewController.h */,
+				3CE3F76526490238002FCF0E /* NoTestViewController.m */,
+			);
+			path = notest;
+			sourceTree = "<group>";
+		};
+		55C99E5B1CC087433AE118CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE706BD196F2599AB8ACFF14 /* Pods-OCLintTest.debug.xcconfig */,
+				484F1A1DAE7CFB26CFA046CB /* Pods-OCLintTest.release.xcconfig */,
+				D111C52A49EE447CD15C8AAD /* Pods-OCLintTest-OCLintTestUITests.debug.xcconfig */,
+				568B94E47F316D5BD5F75C57 /* Pods-OCLintTest-OCLintTestUITests.release.xcconfig */,
+				CF74E865754227AD78D9EBE5 /* Pods-OCLintTestTests.debug.xcconfig */,
+				F30F5607E0F9C97A35612AA7 /* Pods-OCLintTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C57B2CF2643DF5100884237 /* OCLintTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C57B2FF2643DF5400884237 /* Build configuration list for PBXNativeTarget "OCLintTest" */;
+			buildPhases = (
+				89AA373DE8CF1B46E0F34338 /* [CP] Check Pods Manifest.lock */,
+				3C57B2CC2643DF5100884237 /* Sources */,
+				3C57B2CD2643DF5100884237 /* Frameworks */,
+				3C57B2CE2643DF5100884237 /* Resources */,
+				F89DCCF705EC891046CC746B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCLintTest;
+			productName = OCLintTest;
+			productReference = 3C57B2D02643DF5100884237 /* OCLintTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C57B2EA2643DF5400884237 /* OCLintTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C57B3022643DF5400884237 /* Build configuration list for PBXNativeTarget "OCLintTestTests" */;
+			buildPhases = (
+				E2A86845B62F6510B1AA1689 /* [CP] Check Pods Manifest.lock */,
+				3C57B2E72643DF5400884237 /* Sources */,
+				3C57B2E82643DF5400884237 /* Frameworks */,
+				3C57B2E92643DF5400884237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C57B2ED2643DF5400884237 /* PBXTargetDependency */,
+			);
+			name = OCLintTestTests;
+			productName = OCLintTestTests;
+			productReference = 3C57B2EB2643DF5400884237 /* OCLintTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C57B2F52643DF5400884237 /* OCLintTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C57B3052643DF5400884237 /* Build configuration list for PBXNativeTarget "OCLintTestUITests" */;
+			buildPhases = (
+				72B084D23F123FF7E0C8F805 /* [CP] Check Pods Manifest.lock */,
+				3C57B2F22643DF5400884237 /* Sources */,
+				3C57B2F32643DF5400884237 /* Frameworks */,
+				3C57B2F42643DF5400884237 /* Resources */,
+				A00440E6A8E3A888E035A5E6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C57B2F82643DF5400884237 /* PBXTargetDependency */,
+			);
+			name = OCLintTestUITests;
+			productName = OCLintTestUITests;
+			productReference = 3C57B2F62643DF5400884237 /* OCLintTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C57B2C82643DF5100884237 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3C57B2CF2643DF5100884237 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3C57B2EA2643DF5400884237 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3C57B2CF2643DF5100884237;
+					};
+					3C57B2F52643DF5400884237 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3C57B2CF2643DF5100884237;
+					};
+				};
+			};
+			buildConfigurationList = 3C57B2CB2643DF5100884237 /* Build configuration list for PBXProject "OCLintTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C57B2C72643DF5100884237;
+			productRefGroup = 3C57B2D12643DF5100884237 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C57B2CF2643DF5100884237 /* OCLintTest */,
+				3C57B2EA2643DF5400884237 /* OCLintTestTests */,
+				3C57B2F52643DF5400884237 /* OCLintTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C57B2CE2643DF5100884237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C57B2E32643DF5400884237 /* LaunchScreen.storyboard in Resources */,
+				3C57B2E02643DF5400884237 /* Assets.xcassets in Resources */,
+				3C57B2DE2643DF5100884237 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C57B2E92643DF5400884237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C57B2F42643DF5400884237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72B084D23F123FF7E0C8F805 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCLintTest-OCLintTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89AA373DE8CF1B46E0F34338 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCLintTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A00440E6A8E3A888E035A5E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCLintTest-OCLintTestUITests/Pods-OCLintTest-OCLintTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCLintTest-OCLintTestUITests/Pods-OCLintTest-OCLintTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCLintTest-OCLintTestUITests/Pods-OCLintTest-OCLintTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2A86845B62F6510B1AA1689 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCLintTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F89DCCF705EC891046CC746B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCLintTest/Pods-OCLintTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCLintTest/Pods-OCLintTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCLintTest/Pods-OCLintTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C57B2CC2643DF5100884237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C57B2DB2643DF5100884237 /* ViewController.m in Sources */,
+				3CE3F76626490238002FCF0E /* NoTestViewController.m in Sources */,
+				3C57B2D52643DF5100884237 /* AppDelegate.m in Sources */,
+				3C57B2E62643DF5400884237 /* main.m in Sources */,
+				3C57B2D82643DF5100884237 /* SceneDelegate.m in Sources */,
+				3CE3F75D2649022A002FCF0E /* TestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C57B2E72643DF5400884237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C57B2F02643DF5400884237 /* OCLintTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C57B2F22643DF5400884237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C57B2FB2643DF5400884237 /* OCLintTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C57B2ED2643DF5400884237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C57B2CF2643DF5100884237 /* OCLintTest */;
+			targetProxy = 3C57B2EC2643DF5400884237 /* PBXContainerItemProxy */;
+		};
+		3C57B2F82643DF5400884237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C57B2CF2643DF5100884237 /* OCLintTest */;
+			targetProxy = 3C57B2F72643DF5400884237 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C57B2DC2643DF5100884237 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C57B2DD2643DF5100884237 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C57B2E12643DF5400884237 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C57B2E22643DF5400884237 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C57B2FD2643DF5400884237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C57B2FE2643DF5400884237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C57B3002643DF5400884237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE706BD196F2599AB8ACFF14 /* Pods-OCLintTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HX8ZT9FC62;
+				INFOPLIST_FILE = OCLintTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengge.OCLintTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3C57B3012643DF5400884237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 484F1A1DAE7CFB26CFA046CB /* Pods-OCLintTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HX8ZT9FC62;
+				INFOPLIST_FILE = OCLintTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengge.OCLintTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3C57B3032643DF5400884237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF74E865754227AD78D9EBE5 /* Pods-OCLintTestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HX8ZT9FC62;
+				INFOPLIST_FILE = OCLintTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengge.OCLintTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCLintTest.app/OCLintTest";
+			};
+			name = Debug;
+		};
+		3C57B3042643DF5400884237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30F5607E0F9C97A35612AA7 /* Pods-OCLintTestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HX8ZT9FC62;
+				INFOPLIST_FILE = OCLintTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengge.OCLintTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCLintTest.app/OCLintTest";
+			};
+			name = Release;
+		};
+		3C57B3062643DF5400884237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D111C52A49EE447CD15C8AAD /* Pods-OCLintTest-OCLintTestUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HX8ZT9FC62;
+				INFOPLIST_FILE = OCLintTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengge.OCLintTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OCLintTest;
+			};
+			name = Debug;
+		};
+		3C57B3072643DF5400884237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 568B94E47F316D5BD5F75C57 /* Pods-OCLintTest-OCLintTestUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HX8ZT9FC62;
+				INFOPLIST_FILE = OCLintTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengge.OCLintTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OCLintTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C57B2CB2643DF5100884237 /* Build configuration list for PBXProject "OCLintTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C57B2FD2643DF5400884237 /* Debug */,
+				3C57B2FE2643DF5400884237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C57B2FF2643DF5400884237 /* Build configuration list for PBXNativeTarget "OCLintTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C57B3002643DF5400884237 /* Debug */,
+				3C57B3012643DF5400884237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C57B3022643DF5400884237 /* Build configuration list for PBXNativeTarget "OCLintTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C57B3032643DF5400884237 /* Debug */,
+				3C57B3042643DF5400884237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C57B3052643DF5400884237 /* Build configuration list for PBXNativeTarget "OCLintTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C57B3062643DF5400884237 /* Debug */,
+				3C57B3072643DF5400884237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C57B2C82643DF5100884237 /* Project object */;
+}
